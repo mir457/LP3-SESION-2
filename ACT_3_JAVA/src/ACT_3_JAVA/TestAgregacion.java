@@ -5,8 +5,9 @@ public class TestAgregacion {
 		Motor motor = new Motor(12345, 20);
 		Automovil auto = new Automovil("A1B2C3", 4, "Toyota", "Yaris", motor);
 		
-		System.out.println(motor.toString());
-		System.out.println(auto.toString());
+		System.out.println(motor);
+		System.out.println(auto);
 	}
 
 }
+
